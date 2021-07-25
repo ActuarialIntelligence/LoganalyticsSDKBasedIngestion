@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5795CAFA-B549-4F94-86FA-023DC2A1BCE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo.Infrastructure.connectors", "..\demo.Infrastructure.connectors\demo.Infrastructure.connectors.csproj", "{369BD71D-376A-4564-9094-A2B49A5AEFD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo.IOC", "..\demo.IOC\demo.IOC.csproj", "{945BF925-F024-491B-9DA4-6A9974407C8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestKDB", "..\TestKDB\TestKDB.csproj", "{3D26BCC3-EBE5-4DE6-B99B-1E8DC861572D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demo.infrastructure.EventHandlers", "..\demo.infrastructure.EventHandlers\demo.infrastructure.EventHandlers.csproj", "{CB84D2D6-E82C-43E1-B329-1A25D46E8E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo.Infrastructure.Dto", "..\demo.Infrastructure.Dto\demo.Infrastructure.Dto.csproj", "{21129856-C130-46E5-9048-A250CC746FAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demo.infrastructure.connectionsnetcore", "..\demo.infrastructure.connectionsnetcore\demo.infrastructure.connectionsnetcore.csproj", "{F63DF1DB-8263-4730-8BF3-BB441835FD0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KDBandLogAnalytics", "KDBandLogAnalytics.csproj", "{C306329F-F9C4-4E84-86FF-E666BCC57BB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{369BD71D-376A-4564-9094-A2B49A5AEFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369BD71D-376A-4564-9094-A2B49A5AEFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369BD71D-376A-4564-9094-A2B49A5AEFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369BD71D-376A-4564-9094-A2B49A5AEFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945BF925-F024-491B-9DA4-6A9974407C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945BF925-F024-491B-9DA4-6A9974407C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945BF925-F024-491B-9DA4-6A9974407C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945BF925-F024-491B-9DA4-6A9974407C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D26BCC3-EBE5-4DE6-B99B-1E8DC861572D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D26BCC3-EBE5-4DE6-B99B-1E8DC861572D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D26BCC3-EBE5-4DE6-B99B-1E8DC861572D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D26BCC3-EBE5-4DE6-B99B-1E8DC861572D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB84D2D6-E82C-43E1-B329-1A25D46E8E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB84D2D6-E82C-43E1-B329-1A25D46E8E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB84D2D6-E82C-43E1-B329-1A25D46E8E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB84D2D6-E82C-43E1-B329-1A25D46E8E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21129856-C130-46E5-9048-A250CC746FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21129856-C130-46E5-9048-A250CC746FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21129856-C130-46E5-9048-A250CC746FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21129856-C130-46E5-9048-A250CC746FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63DF1DB-8263-4730-8BF3-BB441835FD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63DF1DB-8263-4730-8BF3-BB441835FD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63DF1DB-8263-4730-8BF3-BB441835FD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63DF1DB-8263-4730-8BF3-BB441835FD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C306329F-F9C4-4E84-86FF-E666BCC57BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C306329F-F9C4-4E84-86FF-E666BCC57BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C306329F-F9C4-4E84-86FF-E666BCC57BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C306329F-F9C4-4E84-86FF-E666BCC57BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D26BCC3-EBE5-4DE6-B99B-1E8DC861572D} = {5795CAFA-B549-4F94-86FA-023DC2A1BCE7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09C0A987-7E8A-4210-9666-491E6B0043E5}
+	EndGlobalSection
+EndGlobal

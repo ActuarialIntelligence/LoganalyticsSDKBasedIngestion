@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "loganalyticssdkonkubernetes.fullname" . }}
+  labels:
+    app: {{ template "loganalyticssdkonkubernetes.name" . }}
+    chart: {{ template "loganalyticssdkonkubernetes.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ template "loganalyticssdkonkubernetes.name" . }}
+    release: {{ .Release.Name }}
